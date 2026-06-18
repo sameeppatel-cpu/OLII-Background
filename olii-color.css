@@ -2,11 +2,3 @@
   background-color: #002864;
   font-size: x-large;
 }
-
-/* Example: move app menu/FAB above chat launcher */
-.app-menu-button,
-.mobile-menu-fab {
-  bottom: 220px !important;
-  right: 16px !important;
-  z-index: 2147483500 !important;
-}
