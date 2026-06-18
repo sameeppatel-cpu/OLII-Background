@@ -2,3 +2,13 @@
   background-color: #002864;
   font-size: x-large;
 }
+
+/* Safe move: only target exact chat launcher button */
+#pr-chat-launch-button.pr-conversation-popper-button {
+  position: fixed !important;
+  bottom: 180px !important; /* try 220px if still overlaps */
+  right: 16px !important;
+  left: auto !important;
+  top: auto !important;
+  z-index: 9999 !important;
+}
