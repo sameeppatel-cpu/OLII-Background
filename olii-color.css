@@ -3,14 +3,10 @@
   font-size: x-large;
 }
 
-/* Move only the floating chat launcher up */
-#pr-chat-launcher,
-.pr-chat-launcher,
-.pr-chat-widget-button {
-  position: fixed !important;
-  bottom: 140px !important; /* try 180px if still on menu */
+/* Example: move app menu/FAB above chat launcher */
+.app-menu-button,
+.mobile-menu-fab {
+  bottom: 220px !important;
   right: 16px !important;
-  left: auto !important;
-  top: auto !important;
-  z-index: 2147483000 !important;
+  z-index: 2147483500 !important;
 }
